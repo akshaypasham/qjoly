@@ -4,7 +4,7 @@ trigger:
       - main  # The pipeline runs when code is pushed to the 'main' branch.
 
 pool:
-  vmImage: 'ubuntu-latest'  # Use a Linux agent.
+  vmImage: 'default'  # Use a Linux agent.
 
 steps:
 - script: echo "Hello, Azure Pipeline!"  # Simple echo command
